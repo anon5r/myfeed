@@ -1,10 +1,10 @@
 {
-  "name": "feed-generator",
+  "name": "myfeed",
   "version": "1.0.0",
-  "description": "atproto feed generator starter kit",
+  "description": "anon's private feed by atproto feed generator",
   "main": "index.js",
-  "repository": "git@github.com:bluesky-social/feed-generator.git",
-  "author": "dholms <dtholmgren@gmail.com>",
+  "repository": "git@github.com:anon5r/myfeed.git",
+  "author": "anon <66147+anon5r@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
     "publishFeed": "ts-node scripts/publishFeedGen.ts",
@@ -12,15 +12,15 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@atproto/api": "^0.6.20",
-    "@atproto/identity": "^0.2.1",
-    "@atproto/lexicon": "^0.2.2",
-    "@atproto/repo": "^0.3.2",
-    "@atproto/syntax": "^0.1.2",
-    "@atproto/xrpc-server": "^0.6.0",
-    "better-sqlite3": "^8.3.0",
+    "@atproto/api": "^0.13.6",
+    "@atproto/identity": "^0.4.1",
+    "@atproto/lexicon": "^0.4.1",
+    "@atproto/repo": "^0.5.0",
+    "@atproto/syntax": "^0.3.0",
+    "@atproto/xrpc-server": "^0.6.3",
+    "better-sqlite3": "^11.2",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "kysely": "^0.22.0",
     "multiformats": "^9.9.0"
   },
@@ -30,5 +30,6 @@
     "@types/node": "^20.1.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
-  }
+  },
+  "packageManager": "yarn@3.6.3+sha256.08ead1821a257416e6f217e89365425bf4b6d2430c3279318bedcec1a245fff5"
 }
