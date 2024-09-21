@@ -20,7 +20,7 @@
     "@atproto/xrpc-server": "^0.6.3",
     "better-sqlite3": "^11.2",
     "dotenv": "^16.0.3",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "kysely": "^0.22.0",
     "multiformats": "^9.9.0"
   },
