@@ -1,0 +1,18 @@
+services:
+  feeds:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: bsky-feed
+    ports:
+      - "23000:3000"
+    volumes:
+      - ./src:/app/src
+      - ./scripts:/app/scripts
+#    restart: unless-stopped
+    restart: on-failure
+# Uncomment if you want to use a persitent sqlite database
+#    volumes:
+#      - type: bind
+#        source: ./db.sqlite
+#        target: /app/db.sqlite
